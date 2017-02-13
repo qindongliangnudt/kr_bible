@@ -1,6 +1,8 @@
 # Description
 print Fahrenheit-Celsius table for fahr = 0, 20, ..., 300
 The Fahrenheit and Celsius should both be represented in integer.
+The formula is :
+*C=(5/9)(F-32)*
 The result is as followed:
 
 | Fahrenheit | Celsius |
