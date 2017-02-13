@@ -1,0 +1,3 @@
+The obtained character on success or EOF on failure.
+If the failure has been caused by end-of-file condition, additionally sets the eof indicator (see feof()) on stream. If the failure has been caused by some other error, sets the error indicator (see ferror()) on stream.
+
