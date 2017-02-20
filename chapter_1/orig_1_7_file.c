@@ -6,7 +6,7 @@
 int main(int argc, char* argv[])
 {
     int c, nc;
-    FILE* fp = fopen("aa.txt", "r");
+    FILE* fp = fopen(argv[1], "r");
     if (!fp) {
         perror("File opening failed");
         return EXIT_FAILURE;
